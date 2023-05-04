@@ -8,12 +8,10 @@ pip install -r requirements.txt
 
 参数说明:
 optional arguments:
-  -h, --help            show this help message and exit
-  -u URL, --url URL     待检测的 URL 文本路径
-  -d WORDLIST, --wordlist WORDLIST
-                        文件字典路径
-  -o OUTPUT, --output OUTPUT
-                        输出文件路径，如果不填写则不输出
+  -h, --help  show this help message and exit
+  -u URL, --url URL 待检测的 URL 文本路径
+  -d WORDLIST, --wordlist WORDLIST 文件字典路径
+  -o OUTPUT, --output OUTPUT 输出文件路径，如果不填写则不输出
                       
    ![image](https://user-images.githubusercontent.com/64823089/236351240-61673728-12c5-49cf-85c0-432d4cea21b2.png)
 ![image](https://user-images.githubusercontent.com/64823089/236351612-5eecba79-26b7-4b0f-a1da-c26397fbfb56.png)
