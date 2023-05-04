@@ -1,0 +1,10 @@
+argparse
+concurrent.futures
+logging
+requests
+shutil
+xlwt
+bs4
+tabulate
+tqdm
+colorama
