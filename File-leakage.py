@@ -56,9 +56,9 @@ def main(url_path, dict_path, output_file):
     else:
         print(colorama.Fore.GREEN + "您表示同意，程序继续," + colorama.Style.RESET_ALL)
         
-        with open(url_path) as f:
+        with open(url_path,encoding='utf-8') as f:
             urls = [line.strip() for line in f]
-        with open(dict_path) as f:
+        with open(dict_path,encoding='utf-8') as f:
             dictionary = [line.strip() for line in f]
 
         results = []
